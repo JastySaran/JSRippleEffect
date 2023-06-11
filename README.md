@@ -1,3 +1,3 @@
 # JSRippleEffect
 
-![alt text](http://url/to/img.png)
+![alt text](1.png)
