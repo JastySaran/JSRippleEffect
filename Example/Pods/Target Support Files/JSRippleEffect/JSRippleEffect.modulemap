@@ -1,6 +1,0 @@
-framework module JSRippleEffect {
-  umbrella header "JSRippleEffect-umbrella.h"
-
-  export *
-  module * { export * }
-}

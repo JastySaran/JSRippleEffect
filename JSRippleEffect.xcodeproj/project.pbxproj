@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D03EC682A3602B600D22C7F /* JSRippleEffect.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2D03EC672A3602B600D22C7F /* JSRippleEffect.docc */; };
+		2D03EC6E2A3602B600D22C7F /* JSRippleEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D03EC632A3602B600D22C7F /* JSRippleEffect.framework */; };
+		2D03EC732A3602B600D22C7F /* JSRippleEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03EC722A3602B600D22C7F /* JSRippleEffectTests.swift */; };
+		2D03EC742A3602B600D22C7F /* JSRippleEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D03EC662A3602B600D22C7F /* JSRippleEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D03EC872A3603C000D22C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03EC862A3603C000D22C7F /* AppDelegate.swift */; };
+		2D03EC892A3603C000D22C7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03EC882A3603C000D22C7F /* SceneDelegate.swift */; };
+		2D03EC8B2A3603C000D22C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03EC8A2A3603C000D22C7F /* ViewController.swift */; };
+		2D03EC8E2A3603C000D22C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D03EC8C2A3603C000D22C7F /* Main.storyboard */; };
+		2D03EC902A3603C100D22C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D03EC8F2A3603C100D22C7F /* Assets.xcassets */; };
+		2D03EC932A3603C100D22C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D03EC912A3603C100D22C7F /* LaunchScreen.storyboard */; };
+		2D03EC9E2A3603C100D22C7F /* ExampleJSRippleEffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03EC9D2A3603C100D22C7F /* ExampleJSRippleEffectTests.swift */; };
+		2D03ECA82A3603C100D22C7F /* ExampleJSRippleEffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03ECA72A3603C100D22C7F /* ExampleJSRippleEffectUITests.swift */; };
+		2D03ECAA2A3603C100D22C7F /* ExampleJSRippleEffectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03ECA92A3603C100D22C7F /* ExampleJSRippleEffectUITestsLaunchTests.swift */; };
+		2D03ECB52A36041900D22C7F /* JSRippleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D03ECB42A36041900D22C7F /* JSRippleEffect.swift */; };
+		2D03ECB72A3605BB00D22C7F /* JSRippleEffect.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2D03ECB62A3605BB00D22C7F /* JSRippleEffect.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D03EC6F2A3602B600D22C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D03EC5A2A3602B600D22C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D03EC622A3602B600D22C7F;
+			remoteInfo = JSRippleEffect;
+		};
+		2D03EC9A2A3603C100D22C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D03EC5A2A3602B600D22C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D03EC832A3603C000D22C7F;
+			remoteInfo = ExampleJSRippleEffect;
+		};
+		2D03ECA42A3603C100D22C7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D03EC5A2A3602B600D22C7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D03EC832A3603C000D22C7F;
+			remoteInfo = ExampleJSRippleEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D03EC632A3602B600D22C7F /* JSRippleEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSRippleEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03EC662A3602B600D22C7F /* JSRippleEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSRippleEffect.h; sourceTree = "<group>"; };
+		2D03EC672A3602B600D22C7F /* JSRippleEffect.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = JSRippleEffect.docc; sourceTree = "<group>"; };
+		2D03EC6D2A3602B600D22C7F /* JSRippleEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSRippleEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03EC722A3602B600D22C7F /* JSRippleEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSRippleEffectTests.swift; sourceTree = "<group>"; };
+		2D03EC842A3603C000D22C7F /* ExampleJSRippleEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleJSRippleEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03EC862A3603C000D22C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D03EC882A3603C000D22C7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2D03EC8A2A3603C000D22C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D03EC8D2A3603C000D22C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D03EC8F2A3603C100D22C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D03EC922A3603C100D22C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D03EC942A3603C100D22C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D03EC992A3603C100D22C7F /* ExampleJSRippleEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleJSRippleEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03EC9D2A3603C100D22C7F /* ExampleJSRippleEffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleJSRippleEffectTests.swift; sourceTree = "<group>"; };
+		2D03ECA32A3603C100D22C7F /* ExampleJSRippleEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleJSRippleEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D03ECA72A3603C100D22C7F /* ExampleJSRippleEffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleJSRippleEffectUITests.swift; sourceTree = "<group>"; };
+		2D03ECA92A3603C100D22C7F /* ExampleJSRippleEffectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleJSRippleEffectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D03ECB42A36041900D22C7F /* JSRippleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSRippleEffect.swift; sourceTree = "<group>"; };
+		2D03ECB62A3605BB00D22C7F /* JSRippleEffect.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JSRippleEffect.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D03EC602A3602B600D22C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC6A2A3602B600D22C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC6E2A3602B600D22C7F /* JSRippleEffect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC812A3603C000D22C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC962A3603C100D22C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03ECA02A3603C100D22C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D03EC592A3602B600D22C7F = {
+			isa = PBXGroup;
+			children = (
+				2D03ECB62A3605BB00D22C7F /* JSRippleEffect.podspec */,
+				2D03EC652A3602B600D22C7F /* JSRippleEffect */,
+				2D03EC712A3602B600D22C7F /* JSRippleEffectTests */,
+				2D03EC852A3603C000D22C7F /* ExampleJSRippleEffect */,
+				2D03EC9C2A3603C100D22C7F /* ExampleJSRippleEffectTests */,
+				2D03ECA62A3603C100D22C7F /* ExampleJSRippleEffectUITests */,
+				2D03EC642A3602B600D22C7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D03EC642A3602B600D22C7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D03EC632A3602B600D22C7F /* JSRippleEffect.framework */,
+				2D03EC6D2A3602B600D22C7F /* JSRippleEffectTests.xctest */,
+				2D03EC842A3603C000D22C7F /* ExampleJSRippleEffect.app */,
+				2D03EC992A3603C100D22C7F /* ExampleJSRippleEffectTests.xctest */,
+				2D03ECA32A3603C100D22C7F /* ExampleJSRippleEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D03EC652A3602B600D22C7F /* JSRippleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				2D03EC662A3602B600D22C7F /* JSRippleEffect.h */,
+				2D03EC672A3602B600D22C7F /* JSRippleEffect.docc */,
+				2D03ECB42A36041900D22C7F /* JSRippleEffect.swift */,
+			);
+			path = JSRippleEffect;
+			sourceTree = "<group>";
+		};
+		2D03EC712A3602B600D22C7F /* JSRippleEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D03EC722A3602B600D22C7F /* JSRippleEffectTests.swift */,
+			);
+			path = JSRippleEffectTests;
+			sourceTree = "<group>";
+		};
+		2D03EC852A3603C000D22C7F /* ExampleJSRippleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				2D03EC862A3603C000D22C7F /* AppDelegate.swift */,
+				2D03EC882A3603C000D22C7F /* SceneDelegate.swift */,
+				2D03EC8A2A3603C000D22C7F /* ViewController.swift */,
+				2D03EC8C2A3603C000D22C7F /* Main.storyboard */,
+				2D03EC8F2A3603C100D22C7F /* Assets.xcassets */,
+				2D03EC912A3603C100D22C7F /* LaunchScreen.storyboard */,
+				2D03EC942A3603C100D22C7F /* Info.plist */,
+			);
+			path = ExampleJSRippleEffect;
+			sourceTree = "<group>";
+		};
+		2D03EC9C2A3603C100D22C7F /* ExampleJSRippleEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D03EC9D2A3603C100D22C7F /* ExampleJSRippleEffectTests.swift */,
+			);
+			path = ExampleJSRippleEffectTests;
+			sourceTree = "<group>";
+		};
+		2D03ECA62A3603C100D22C7F /* ExampleJSRippleEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D03ECA72A3603C100D22C7F /* ExampleJSRippleEffectUITests.swift */,
+				2D03ECA92A3603C100D22C7F /* ExampleJSRippleEffectUITestsLaunchTests.swift */,
+			);
+			path = ExampleJSRippleEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D03EC5E2A3602B600D22C7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC742A3602B600D22C7F /* JSRippleEffect.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D03EC622A3602B600D22C7F /* JSRippleEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D03EC772A3602B600D22C7F /* Build configuration list for PBXNativeTarget "JSRippleEffect" */;
+			buildPhases = (
+				2D03EC5E2A3602B600D22C7F /* Headers */,
+				2D03EC5F2A3602B600D22C7F /* Sources */,
+				2D03EC602A3602B600D22C7F /* Frameworks */,
+				2D03EC612A3602B600D22C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSRippleEffect;
+			productName = JSRippleEffect;
+			productReference = 2D03EC632A3602B600D22C7F /* JSRippleEffect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2D03EC6C2A3602B600D22C7F /* JSRippleEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D03EC7A2A3602B600D22C7F /* Build configuration list for PBXNativeTarget "JSRippleEffectTests" */;
+			buildPhases = (
+				2D03EC692A3602B600D22C7F /* Sources */,
+				2D03EC6A2A3602B600D22C7F /* Frameworks */,
+				2D03EC6B2A3602B600D22C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D03EC702A3602B600D22C7F /* PBXTargetDependency */,
+			);
+			name = JSRippleEffectTests;
+			productName = JSRippleEffectTests;
+			productReference = 2D03EC6D2A3602B600D22C7F /* JSRippleEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D03EC832A3603C000D22C7F /* ExampleJSRippleEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D03ECAB2A3603C100D22C7F /* Build configuration list for PBXNativeTarget "ExampleJSRippleEffect" */;
+			buildPhases = (
+				2D03EC802A3603C000D22C7F /* Sources */,
+				2D03EC812A3603C000D22C7F /* Frameworks */,
+				2D03EC822A3603C000D22C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleJSRippleEffect;
+			productName = ExampleJSRippleEffect;
+			productReference = 2D03EC842A3603C000D22C7F /* ExampleJSRippleEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D03EC982A3603C100D22C7F /* ExampleJSRippleEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D03ECAE2A3603C100D22C7F /* Build configuration list for PBXNativeTarget "ExampleJSRippleEffectTests" */;
+			buildPhases = (
+				2D03EC952A3603C100D22C7F /* Sources */,
+				2D03EC962A3603C100D22C7F /* Frameworks */,
+				2D03EC972A3603C100D22C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D03EC9B2A3603C100D22C7F /* PBXTargetDependency */,
+			);
+			name = ExampleJSRippleEffectTests;
+			productName = ExampleJSRippleEffectTests;
+			productReference = 2D03EC992A3603C100D22C7F /* ExampleJSRippleEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D03ECA22A3603C100D22C7F /* ExampleJSRippleEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D03ECB12A3603C100D22C7F /* Build configuration list for PBXNativeTarget "ExampleJSRippleEffectUITests" */;
+			buildPhases = (
+				2D03EC9F2A3603C100D22C7F /* Sources */,
+				2D03ECA02A3603C100D22C7F /* Frameworks */,
+				2D03ECA12A3603C100D22C7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D03ECA52A3603C100D22C7F /* PBXTargetDependency */,
+			);
+			name = ExampleJSRippleEffectUITests;
+			productName = ExampleJSRippleEffectUITests;
+			productReference = 2D03ECA32A3603C100D22C7F /* ExampleJSRippleEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D03EC5A2A3602B600D22C7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2D03EC622A3602B600D22C7F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2D03EC6C2A3602B600D22C7F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2D03EC832A3603C000D22C7F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2D03EC982A3603C100D22C7F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2D03EC832A3603C000D22C7F;
+					};
+					2D03ECA22A3603C100D22C7F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2D03EC832A3603C000D22C7F;
+					};
+				};
+			};
+			buildConfigurationList = 2D03EC5D2A3602B600D22C7F /* Build configuration list for PBXProject "JSRippleEffect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D03EC592A3602B600D22C7F;
+			productRefGroup = 2D03EC642A3602B600D22C7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D03EC622A3602B600D22C7F /* JSRippleEffect */,
+				2D03EC6C2A3602B600D22C7F /* JSRippleEffectTests */,
+				2D03EC832A3603C000D22C7F /* ExampleJSRippleEffect */,
+				2D03EC982A3603C100D22C7F /* ExampleJSRippleEffectTests */,
+				2D03ECA22A3603C100D22C7F /* ExampleJSRippleEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D03EC612A3602B600D22C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03ECB72A3605BB00D22C7F /* JSRippleEffect.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC6B2A3602B600D22C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC822A3603C000D22C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC932A3603C100D22C7F /* LaunchScreen.storyboard in Resources */,
+				2D03EC902A3603C100D22C7F /* Assets.xcassets in Resources */,
+				2D03EC8E2A3603C000D22C7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC972A3603C100D22C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03ECA12A3603C100D22C7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D03EC5F2A3602B600D22C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC682A3602B600D22C7F /* JSRippleEffect.docc in Sources */,
+				2D03ECB52A36041900D22C7F /* JSRippleEffect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC692A3602B600D22C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC732A3602B600D22C7F /* JSRippleEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC802A3603C000D22C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC8B2A3603C000D22C7F /* ViewController.swift in Sources */,
+				2D03EC872A3603C000D22C7F /* AppDelegate.swift in Sources */,
+				2D03EC892A3603C000D22C7F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC952A3603C100D22C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03EC9E2A3603C100D22C7F /* ExampleJSRippleEffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D03EC9F2A3603C100D22C7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D03ECA82A3603C100D22C7F /* ExampleJSRippleEffectUITests.swift in Sources */,
+				2D03ECAA2A3603C100D22C7F /* ExampleJSRippleEffectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D03EC702A3602B600D22C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D03EC622A3602B600D22C7F /* JSRippleEffect */;
+			targetProxy = 2D03EC6F2A3602B600D22C7F /* PBXContainerItemProxy */;
+		};
+		2D03EC9B2A3603C100D22C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D03EC832A3603C000D22C7F /* ExampleJSRippleEffect */;
+			targetProxy = 2D03EC9A2A3603C100D22C7F /* PBXContainerItemProxy */;
+		};
+		2D03ECA52A3603C100D22C7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D03EC832A3603C000D22C7F /* ExampleJSRippleEffect */;
+			targetProxy = 2D03ECA42A3603C100D22C7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D03EC8C2A3603C000D22C7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D03EC8D2A3603C000D22C7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D03EC912A3603C100D22C7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D03EC922A3603C100D22C7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D03EC752A3602B600D22C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D03EC762A3602B600D22C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D03EC782A3602B600D22C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.JSRippleEffect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D03EC792A3602B600D22C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.JSRippleEffect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D03EC7B2A3602B600D22C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.JSRippleEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D03EC7C2A3602B600D22C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.JSRippleEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D03ECAC2A3603C100D22C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExampleJSRippleEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.ExampleJSRippleEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D03ECAD2A3603C100D22C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExampleJSRippleEffect/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.ExampleJSRippleEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D03ECAF2A3603C100D22C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.ExampleJSRippleEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleJSRippleEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExampleJSRippleEffect";
+			};
+			name = Debug;
+		};
+		2D03ECB02A3603C100D22C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.ExampleJSRippleEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleJSRippleEffect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExampleJSRippleEffect";
+			};
+			name = Release;
+		};
+		2D03ECB22A3603C100D22C7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.ExampleJSRippleEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExampleJSRippleEffect;
+			};
+			name = Debug;
+		};
+		2D03ECB32A3603C100D22C7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J45CVTN88N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.innvendt.smartaccess.ExampleJSRippleEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExampleJSRippleEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D03EC5D2A3602B600D22C7F /* Build configuration list for PBXProject "JSRippleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D03EC752A3602B600D22C7F /* Debug */,
+				2D03EC762A3602B600D22C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D03EC772A3602B600D22C7F /* Build configuration list for PBXNativeTarget "JSRippleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D03EC782A3602B600D22C7F /* Debug */,
+				2D03EC792A3602B600D22C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D03EC7A2A3602B600D22C7F /* Build configuration list for PBXNativeTarget "JSRippleEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D03EC7B2A3602B600D22C7F /* Debug */,
+				2D03EC7C2A3602B600D22C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D03ECAB2A3603C100D22C7F /* Build configuration list for PBXNativeTarget "ExampleJSRippleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D03ECAC2A3603C100D22C7F /* Debug */,
+				2D03ECAD2A3603C100D22C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D03ECAE2A3603C100D22C7F /* Build configuration list for PBXNativeTarget "ExampleJSRippleEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D03ECAF2A3603C100D22C7F /* Debug */,
+				2D03ECB02A3603C100D22C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D03ECB12A3603C100D22C7F /* Build configuration list for PBXNativeTarget "ExampleJSRippleEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D03ECB22A3603C100D22C7F /* Debug */,
+				2D03ECB32A3603C100D22C7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D03EC5A2A3602B600D22C7F /* Project object */;
+}

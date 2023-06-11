@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sXd-Mf-59l">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="bN2-Cr-KPh">
+            <objects>
+                <viewController id="sXd-Mf-59l" customClass="ViewController" customModule="JSRippleEffect_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5sv-7g-Mi3"/>
+                        <viewControllerLayoutGuide type="bottom" id="RpV-ff-5jY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6bb-HE-L2u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="wc5-ce-CpV">
+                                <rect key="frame" x="31" y="497" width="313" height="313"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi.router.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7LD-o8-6rM">
+                                        <rect key="frame" x="92" y="89.999999999999957" width="129" height="133.66666666666669"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="7LD-o8-6rM" secondAttribute="height" multiplier="129:136" id="Amo-sN-ouN"/>
+                                            <constraint firstAttribute="width" constant="129" id="Bws-Go-nI4"/>
+                                            <constraint firstAttribute="height" constant="136" id="FCk-DL-K8A"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="313" id="0j3-iD-wP7"/>
+                                    <constraint firstItem="7LD-o8-6rM" firstAttribute="centerX" secondItem="wc5-ce-CpV" secondAttribute="centerX" id="3hX-bB-4xK"/>
+                                    <constraint firstAttribute="width" secondItem="wc5-ce-CpV" secondAttribute="height" multiplier="1:1" id="Iqw-gP-iQ9"/>
+                                    <constraint firstItem="7LD-o8-6rM" firstAttribute="centerY" secondItem="wc5-ce-CpV" secondAttribute="centerY" id="ftg-IC-wyE"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JSRippleEffect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trB-ff-dGH">
+                                <rect key="frame" x="31" y="116" width="313" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="8bR-qJ-K2N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ii5-MC-O0j"/>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.69945157280000003" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="trB-ff-dGH" firstAttribute="leading" secondItem="Ii5-MC-O0j" secondAttribute="leading" constant="31" id="AxK-p3-800"/>
+                            <constraint firstItem="wc5-ce-CpV" firstAttribute="leading" secondItem="Ii5-MC-O0j" secondAttribute="leading" constant="31" id="Fre-1u-5e3"/>
+                            <constraint firstItem="Ii5-MC-O0j" firstAttribute="trailing" secondItem="trB-ff-dGH" secondAttribute="trailing" constant="31" id="cIt-Ko-Cmj"/>
+                            <constraint firstItem="Ii5-MC-O0j" firstAttribute="trailing" secondItem="wc5-ce-CpV" secondAttribute="trailing" constant="31" id="cg3-sk-WdO"/>
+                            <constraint firstItem="trB-ff-dGH" firstAttribute="top" secondItem="Ii5-MC-O0j" secondAttribute="top" constant="57" id="f7U-fb-v2g"/>
+                            <constraint firstItem="Ii5-MC-O0j" firstAttribute="bottom" secondItem="wc5-ce-CpV" secondAttribute="bottom" constant="8" id="oAp-0e-sZq"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="375" height="852"/>
+                    <connections>
+                        <outlet property="rippleView" destination="wc5-ce-CpV" id="oUH-QM-7NQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAY-TA-IJd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1396" y="-1.7991004497751126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="wifi.router.fill" catalog="system" width="128" height="82"/>
+    </resources>
+</document>
