@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JSRippleEffect'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'JSRippleEffect is designed based on Doppler effect'
 
 # This description is used to generate tags and improve search results.
