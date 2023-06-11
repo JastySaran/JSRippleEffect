@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'JSRippleEffect/*.swift'
+  s.source_files = 'JSRippleEffect/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'JSRippleEffect' => ['JSRippleEffect/Assets/*.png']
