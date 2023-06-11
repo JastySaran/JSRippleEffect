@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14758A7D53463CB25E091497F4714726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		17C1AF9DDE174C1660ACE25052ED60BA /* JSRippleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922EBE7206AEAD013A20929761C5900A /* JSRippleEffect.swift */; };
+		47FDD28238B7F41B8331715318E9B163 /* Pods-JSRippleEffect_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 276A7874F4FB51566EBA097A12E7FE49 /* Pods-JSRippleEffect_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C5816C0C37D1570E31740F2B521E901 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		757DB118D79DB388623129DC983DFB58 /* Pods-JSRippleEffect_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 053696D0BE0A77ED499D816A6CFFCE89 /* Pods-JSRippleEffect_Tests-dummy.m */; };
+		80461082C52DB872EE9626D1D3CC9119 /* JSRippleEffect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FC23AD7744E53D3C08562485B8FC327 /* JSRippleEffect-dummy.m */; };
+		99ED90316F2EA3855D7DADDEC180A844 /* Pods-JSRippleEffect_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FCDF948753F2FEDE4BDA7CBD6F235D /* Pods-JSRippleEffect_Example-dummy.m */; };
+		BEEBAABE4A47ED3C3659A8E6E744AA5D /* JSRippleEffect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD72E38FEF678FA77A1B9081F5E37EE /* JSRippleEffect-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F212E85B4D2A600FBDAB72DE721AB9 /* Pods-JSRippleEffect_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF42682DE5CE72C46B3B642023537224 /* Pods-JSRippleEffect_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1302483D683E5F522B6E1244CFAE574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01CB50DDB5C9F9DB9436FD7C683C2EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3592071AD4EEA1CC36990CF2D9D1697C;
+			remoteInfo = JSRippleEffect;
+		};
+		71C27501EC8B96FC055F924BBA3B186D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B411C568434B3B79068ECA3D764B58B;
+			remoteInfo = "Pods-JSRippleEffect_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053696D0BE0A77ED499D816A6CFFCE89 /* Pods-JSRippleEffect_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSRippleEffect_Tests-dummy.m"; sourceTree = "<group>"; };
+		054D63E5808A4399B83AE26B2A6CBDBE /* JSRippleEffect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSRippleEffect-Info.plist"; sourceTree = "<group>"; };
+		0CF51DB1219518378E2F9042A3C38B7F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0FC23AD7744E53D3C08562485B8FC327 /* JSRippleEffect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSRippleEffect-dummy.m"; sourceTree = "<group>"; };
+		276A7874F4FB51566EBA097A12E7FE49 /* Pods-JSRippleEffect_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSRippleEffect_Tests-umbrella.h"; sourceTree = "<group>"; };
+		288188D06406BEF4581B1CA8E9F61E30 /* JSRippleEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSRippleEffect.debug.xcconfig; sourceTree = "<group>"; };
+		36DE95CADB4CFD0FCB6CE61C01711A98 /* Pods-JSRippleEffect_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSRippleEffect_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D77966E1B28980F284EAFCEE92417F3 /* Pods-JSRippleEffect_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSRippleEffect_Example-Info.plist"; sourceTree = "<group>"; };
+		5C079DC6A7DDCF804576CAD6754B6387 /* Pods_JSRippleEffect_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSRippleEffect_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCAAEE4252EE5149494A6AAD358AB14 /* JSRippleEffect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSRippleEffect-prefix.pch"; sourceTree = "<group>"; };
+		5EED6B47488C3936F110E23CDD2614CB /* Pods-JSRippleEffect_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSRippleEffect_Example.modulemap"; sourceTree = "<group>"; };
+		67E9C1D2446477AB34C40566AAB60604 /* Pods-JSRippleEffect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSRippleEffect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6DD72E38FEF678FA77A1B9081F5E37EE /* JSRippleEffect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSRippleEffect-umbrella.h"; sourceTree = "<group>"; };
+		6FC33815C9142065CF8629290B34E6CD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		71F71B662549851C833B22E1BB718E08 /* Pods-JSRippleEffect_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSRippleEffect_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		765C92E7D956F9FF1A3F9C110BEE0760 /* Pods-JSRippleEffect_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSRippleEffect_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE7DF83FC8A9F73084B1A0F4853BC24 /* Pods-JSRippleEffect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSRippleEffect_Tests-Info.plist"; sourceTree = "<group>"; };
+		922EBE7206AEAD013A20929761C5900A /* JSRippleEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSRippleEffect.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADDE5C281D71ACA10DA65A7962402745 /* Pods-JSRippleEffect_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSRippleEffect_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B7E1016EBE713E9D9B5B04824D3F0769 /* Pods-JSRippleEffect_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSRippleEffect_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF42682DE5CE72C46B3B642023537224 /* Pods-JSRippleEffect_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSRippleEffect_Example-umbrella.h"; sourceTree = "<group>"; };
+		C094C100C020A24EF6B66980041D4099 /* JSRippleEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSRippleEffect.release.xcconfig; sourceTree = "<group>"; };
+		C282AAAA1A348B88FD0E0A853F6464C3 /* JSRippleEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSRippleEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD76FA882F9BBDD92A8BD41CD4E6B56B /* JSRippleEffect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSRippleEffect.modulemap; sourceTree = "<group>"; };
+		D5FCDF948753F2FEDE4BDA7CBD6F235D /* Pods-JSRippleEffect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSRippleEffect_Example-dummy.m"; sourceTree = "<group>"; };
+		DB0B1B40ECAF2BA0714C2AFF327901D9 /* Pods_JSRippleEffect_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSRippleEffect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2D3793D617F6C4E8C602662A954794 /* Pods-JSRippleEffect_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSRippleEffect_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECD629C050BBADDDDDCE60FEFF7E28E8 /* JSRippleEffect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JSRippleEffect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFE39978AC8B8C43D6A0C5BB4E245D63 /* Pods-JSRippleEffect_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSRippleEffect_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5770FF18FF1523F65D428D500D4DD3F /* Pods-JSRippleEffect_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSRippleEffect_Tests.modulemap"; sourceTree = "<group>"; };
+		F7F1AFF57EAEA1F8AFDFA1CB7A2FCE96 /* Pods-JSRippleEffect_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSRippleEffect_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		677C17A19C7E5D5305D3FAE518FD1C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C5816C0C37D1570E31740F2B521E901 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2AD9277D1A6BF025AE246AFE9679C7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14758A7D53463CB25E091497F4714726 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E123C025620FE391C7334CC1C03EF01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1302483D683E5F522B6E1244CFAE574 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EF1700891A33207A3D726ADB9D6F9F9 /* Pods-JSRippleEffect_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F5770FF18FF1523F65D428D500D4DD3F /* Pods-JSRippleEffect_Tests.modulemap */,
+				DB2D3793D617F6C4E8C602662A954794 /* Pods-JSRippleEffect_Tests-acknowledgements.markdown */,
+				F7F1AFF57EAEA1F8AFDFA1CB7A2FCE96 /* Pods-JSRippleEffect_Tests-acknowledgements.plist */,
+				053696D0BE0A77ED499D816A6CFFCE89 /* Pods-JSRippleEffect_Tests-dummy.m */,
+				7AE7DF83FC8A9F73084B1A0F4853BC24 /* Pods-JSRippleEffect_Tests-Info.plist */,
+				276A7874F4FB51566EBA097A12E7FE49 /* Pods-JSRippleEffect_Tests-umbrella.h */,
+				765C92E7D956F9FF1A3F9C110BEE0760 /* Pods-JSRippleEffect_Tests.debug.xcconfig */,
+				B7E1016EBE713E9D9B5B04824D3F0769 /* Pods-JSRippleEffect_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSRippleEffect_Tests";
+			path = "Target Support Files/Pods-JSRippleEffect_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D3EEEEDB9BA4E3F7FF0D69C867C948E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C40A189B4431E15EA4DA86617375D598 /* JSRippleEffect */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6449C445555FEA686D0399E64233A597 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD76FA882F9BBDD92A8BD41CD4E6B56B /* JSRippleEffect.modulemap */,
+				0FC23AD7744E53D3C08562485B8FC327 /* JSRippleEffect-dummy.m */,
+				054D63E5808A4399B83AE26B2A6CBDBE /* JSRippleEffect-Info.plist */,
+				5DCAAEE4252EE5149494A6AAD358AB14 /* JSRippleEffect-prefix.pch */,
+				6DD72E38FEF678FA77A1B9081F5E37EE /* JSRippleEffect-umbrella.h */,
+				288188D06406BEF4581B1CA8E9F61E30 /* JSRippleEffect.debug.xcconfig */,
+				C094C100C020A24EF6B66980041D4099 /* JSRippleEffect.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSRippleEffect";
+			sourceTree = "<group>";
+		};
+		65CEC0B226A2CCF1FC014F458F01424F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C282AAAA1A348B88FD0E0A853F6464C3 /* JSRippleEffect.framework */,
+				5C079DC6A7DDCF804576CAD6754B6387 /* Pods_JSRippleEffect_Example.framework */,
+				DB0B1B40ECAF2BA0714C2AFF327901D9 /* Pods_JSRippleEffect_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870B1F09F224235144C3E79E44DB987C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B12A7F9CE24E9829E68EC7232A2660E6 /* Pods-JSRippleEffect_Example */,
+				4EF1700891A33207A3D726ADB9D6F9F9 /* Pods-JSRippleEffect_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFA8621CC8A2B37B6604C047619130B5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECD629C050BBADDDDDCE60FEFF7E28E8 /* JSRippleEffect.podspec */,
+				0CF51DB1219518378E2F9042A3C38B7F /* LICENSE */,
+				6FC33815C9142065CF8629290B34E6CD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B12A7F9CE24E9829E68EC7232A2660E6 /* Pods-JSRippleEffect_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5EED6B47488C3936F110E23CDD2614CB /* Pods-JSRippleEffect_Example.modulemap */,
+				71F71B662549851C833B22E1BB718E08 /* Pods-JSRippleEffect_Example-acknowledgements.markdown */,
+				67E9C1D2446477AB34C40566AAB60604 /* Pods-JSRippleEffect_Example-acknowledgements.plist */,
+				D5FCDF948753F2FEDE4BDA7CBD6F235D /* Pods-JSRippleEffect_Example-dummy.m */,
+				EFE39978AC8B8C43D6A0C5BB4E245D63 /* Pods-JSRippleEffect_Example-frameworks.sh */,
+				4D77966E1B28980F284EAFCEE92417F3 /* Pods-JSRippleEffect_Example-Info.plist */,
+				BF42682DE5CE72C46B3B642023537224 /* Pods-JSRippleEffect_Example-umbrella.h */,
+				36DE95CADB4CFD0FCB6CE61C01711A98 /* Pods-JSRippleEffect_Example.debug.xcconfig */,
+				ADDE5C281D71ACA10DA65A7962402745 /* Pods-JSRippleEffect_Example.release.xcconfig */,
+			);
+			name = "Pods-JSRippleEffect_Example";
+			path = "Target Support Files/Pods-JSRippleEffect_Example";
+			sourceTree = "<group>";
+		};
+		C40A189B4431E15EA4DA86617375D598 /* JSRippleEffect */ = {
+			isa = PBXGroup;
+			children = (
+				922EBE7206AEAD013A20929761C5900A /* JSRippleEffect.swift */,
+				AFA8621CC8A2B37B6604C047619130B5 /* Pod */,
+				6449C445555FEA686D0399E64233A597 /* Support Files */,
+			);
+			name = JSRippleEffect;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5D3EEEEDB9BA4E3F7FF0D69C867C948E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				65CEC0B226A2CCF1FC014F458F01424F /* Products */,
+				870B1F09F224235144C3E79E44DB987C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03C058700042412E4DA028C62B82F10F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F212E85B4D2A600FBDAB72DE721AB9 /* Pods-JSRippleEffect_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A97428C25BA28ADE32D475551EE551 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEBAABE4A47ED3C3659A8E6E744AA5D /* JSRippleEffect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0555964841D76B47C3806F0C2B5C72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47FDD28238B7F41B8331715318E9B163 /* Pods-JSRippleEffect_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B411C568434B3B79068ECA3D764B58B /* Pods-JSRippleEffect_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E76784D11D81F2514E8E2D37EB7A7864 /* Build configuration list for PBXNativeTarget "Pods-JSRippleEffect_Example" */;
+			buildPhases = (
+				03C058700042412E4DA028C62B82F10F /* Headers */,
+				7F3840CE3A53AF3A8372251F72481CC7 /* Sources */,
+				E123C025620FE391C7334CC1C03EF01E /* Frameworks */,
+				8835E7294C139BD7E654E21B2A391B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				646FF14032D21FDFDD737A4F50BFCC2A /* PBXTargetDependency */,
+			);
+			name = "Pods-JSRippleEffect_Example";
+			productName = Pods_JSRippleEffect_Example;
+			productReference = 5C079DC6A7DDCF804576CAD6754B6387 /* Pods_JSRippleEffect_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3592071AD4EEA1CC36990CF2D9D1697C /* JSRippleEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0AE1D301A764B1E3FA687ADCD823E67 /* Build configuration list for PBXNativeTarget "JSRippleEffect" */;
+			buildPhases = (
+				41A97428C25BA28ADE32D475551EE551 /* Headers */,
+				2FA53941D982E82F41C0B4197C6B7D49 /* Sources */,
+				D2AD9277D1A6BF025AE246AFE9679C7F /* Frameworks */,
+				CD1EE2C96CB7C26731349341A1163202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSRippleEffect;
+			productName = JSRippleEffect;
+			productReference = C282AAAA1A348B88FD0E0A853F6464C3 /* JSRippleEffect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35DED75C0E12C3F8B451ABDA708F6165 /* Pods-JSRippleEffect_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50DB7DEF30B32D2C940E089A5B773F0 /* Build configuration list for PBXNativeTarget "Pods-JSRippleEffect_Tests" */;
+			buildPhases = (
+				BA0555964841D76B47C3806F0C2B5C72 /* Headers */,
+				FE8B68E3B7015F5E60F8F2B2E3075686 /* Sources */,
+				677C17A19C7E5D5305D3FAE518FD1C8E /* Frameworks */,
+				0AE07D1D0D419E514D8DF74728E1F89B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6F33F18E8356E4739FAEC5CAA822ED6 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSRippleEffect_Tests";
+			productName = Pods_JSRippleEffect_Tests;
+			productReference = DB0B1B40ECAF2BA0714C2AFF327901D9 /* Pods_JSRippleEffect_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3592071AD4EEA1CC36990CF2D9D1697C = {
+						LastSwiftMigration = "";
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 65CEC0B226A2CCF1FC014F458F01424F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3592071AD4EEA1CC36990CF2D9D1697C /* JSRippleEffect */,
+				1B411C568434B3B79068ECA3D764B58B /* Pods-JSRippleEffect_Example */,
+				35DED75C0E12C3F8B451ABDA708F6165 /* Pods-JSRippleEffect_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AE07D1D0D419E514D8DF74728E1F89B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8835E7294C139BD7E654E21B2A391B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1EE2C96CB7C26731349341A1163202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA53941D982E82F41C0B4197C6B7D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C1AF9DDE174C1660ACE25052ED60BA /* JSRippleEffect.swift in Sources */,
+				80461082C52DB872EE9626D1D3CC9119 /* JSRippleEffect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3840CE3A53AF3A8372251F72481CC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ED90316F2EA3855D7DADDEC180A844 /* Pods-JSRippleEffect_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8B68E3B7015F5E60F8F2B2E3075686 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				757DB118D79DB388623129DC983DFB58 /* Pods-JSRippleEffect_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		646FF14032D21FDFDD737A4F50BFCC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSRippleEffect;
+			target = 3592071AD4EEA1CC36990CF2D9D1697C /* JSRippleEffect */;
+			targetProxy = 01CB50DDB5C9F9DB9436FD7C683C2EC7 /* PBXContainerItemProxy */;
+		};
+		E6F33F18E8356E4739FAEC5CAA822ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSRippleEffect_Example";
+			target = 1B411C568434B3B79068ECA3D764B58B /* Pods-JSRippleEffect_Example */;
+			targetProxy = 71C27501EC8B96FC055F924BBA3B186D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		026CDD7C6269A7B433043F145C0D02B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765C92E7D956F9FF1A3F9C110BEE0760 /* Pods-JSRippleEffect_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSRippleEffect_Tests/Pods-JSRippleEffect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSRippleEffect_Tests/Pods-JSRippleEffect_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32B22B5152E36FAC729630560549DD01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C094C100C020A24EF6B66980041D4099 /* JSRippleEffect.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSRippleEffect/JSRippleEffect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSRippleEffect/JSRippleEffect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JSRippleEffect/JSRippleEffect.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = JSRippleEffect;
+				PRODUCT_NAME = JSRippleEffect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51A434C0DF87903C3E7F4C25D72E3E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288188D06406BEF4581B1CA8E9F61E30 /* JSRippleEffect.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSRippleEffect/JSRippleEffect-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSRippleEffect/JSRippleEffect-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JSRippleEffect/JSRippleEffect.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = JSRippleEffect;
+				PRODUCT_NAME = JSRippleEffect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AE76E8199AF2C92B011A25FEF4238032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DE95CADB4CFD0FCB6CE61C01711A98 /* Pods-JSRippleEffect_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSRippleEffect_Example/Pods-JSRippleEffect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSRippleEffect_Example/Pods-JSRippleEffect_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D15BB4632739EEBE7F72876956ED43A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDE5C281D71ACA10DA65A7962402745 /* Pods-JSRippleEffect_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSRippleEffect_Example/Pods-JSRippleEffect_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSRippleEffect_Example/Pods-JSRippleEffect_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2DB07C9ECB3C5C8F2113C91A791D501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E1016EBE713E9D9B5B04824D3F0769 /* Pods-JSRippleEffect_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JSRippleEffect_Tests/Pods-JSRippleEffect_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSRippleEffect_Tests/Pods-JSRippleEffect_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50DB7DEF30B32D2C940E089A5B773F0 /* Build configuration list for PBXNativeTarget "Pods-JSRippleEffect_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026CDD7C6269A7B433043F145C0D02B4 /* Debug */,
+				D2DB07C9ECB3C5C8F2113C91A791D501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0AE1D301A764B1E3FA687ADCD823E67 /* Build configuration list for PBXNativeTarget "JSRippleEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A434C0DF87903C3E7F4C25D72E3E63 /* Debug */,
+				32B22B5152E36FAC729630560549DD01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E76784D11D81F2514E8E2D37EB7A7864 /* Build configuration list for PBXNativeTarget "Pods-JSRippleEffect_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE76E8199AF2C92B011A25FEF4238032 /* Debug */,
+				D15BB4632739EEBE7F72876956ED43A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
